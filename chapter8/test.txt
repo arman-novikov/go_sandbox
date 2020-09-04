@@ -1,0 +1,5 @@
+    return true;
+  } else {
+    APP_LOG(DEBUG, "Can't delete user. No user with that ipv4 %s addr.\n",
+            value->cidr4);
+    return false;
